@@ -1,0 +1,12 @@
+{
+	"name": "food-whisperer",
+	"version": "0.0.1",
+	"description": "Never miss out on your favorite desert again!",
+	"main": "server.js",
+	"author": "Shiv Toolsidass",
+	"dependencies" : {
+		"express": "latest",
+		"request": "latest",
+		"cheerio": "latest"
+	}
+}
