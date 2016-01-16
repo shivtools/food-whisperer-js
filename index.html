@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0" />
+	<title> Food whisperer </title>
+	<link rel="stylesheet" href="./css/stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+	<h1>Get alerts when your favorite food item is available in dhall!</h1>
+	<p> Were you recently told that your favorite desert was available at dhall, only to go there and find that it wasn't?
+		Food whisperer is here to solve your problems. Select your favorite item from the dropdown menu and give us your number.
+		We'll alert you when your item is available.
+	</p>
+
+  	<button type="button" id="pressButton" class="btn btn-primary">Get alerts!</button>
+  	<br/>
+  	</br>
+  	<br/>
+
+</div>
+<h4> Made using some sweet JSON data from Dhall's website!</h4> 
+</body>
+
+<!-- Put JS here. Must iterate through json file that is found in items.json and store in db. -->
+<!-- To be integrated with backend in a bit! -->
+<script>
+		$.getJSON("./items.json", function(json) {
+    		console.log(json); //print to console for right now
+		});
+</script>
+
+</html>

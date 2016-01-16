@@ -1,0 +1,1486 @@
+
+{  
+   "query":{  
+      "message":{  
+         "note1":"getDiningMenu.xq - parameters (keyword, dow, location and mainloc [mainloc- required)"
+      },
+      "mainloc":{  
+         "type":"HDC"
+      },
+      "location-ri":{  
+         "term":[  
+            "Specials",
+            "Spider Grill",
+            "Dolce Vita",
+            "Grains and Greens",
+            "Bruce's",
+            "Piatto Bene",
+            "Evergreens"
+         ]
+      },
+      "start":"1",
+      "hitsPerPage":"10"
+   },
+   "results":{  
+      "location":[  
+         {  
+            "@attributes":{  
+               "name":"Specials"
+            },
+            "day":[  
+               {  
+                  "@attributes":{  
+                     "dow":"Monday",
+                     "locname":"Specials"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Breakfast Sandwich Bar on Bruce's",
+                           "Specialty Omelet Station with Shrimp on Spider Grill, Piatto Benne, Hemispheres",
+                           "Steel Cut Oatmeal, Yogurt and Fruit Bar on Hemispheres",
+                           "Bagel Bar on Evergreens (Salad Bar)"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Southern Smoke BBQ Bar on Spider Grill",
+                           "1\/3lb burgers cooked to order"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Mongolian Grill on Hemispheres",
+                           "Gryos on Bruce's",
+                           "Panini Station on Campus Deli"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":"Grilled Cheese and Flank Steak Sandwich Station on Hemispheres"
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Tuesday",
+                     "locname":"Specials"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Breakfast Sandwich Station on Bruce's",
+                           "Omelet Station on Spider Grill",
+                           "Steel Cut Oatmeal, Fruit and Yogurt Bar",
+                           "Bagel Bar on Evergreens (Salad Bar)"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "1\/3lb burgers cooked to order on Spider Grill",
+                           "Indian Bar on Spider Grill right"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Grilled Cheese and Flank Steak Station on Hemispheres",
+                           "Gryos carved to order on Bruce's",
+                           "Panini Station on Campus Deli"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":"Mongolian Grill Station on Hemisphere's"
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Wednesday",
+                     "locname":"Specials"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Breakfast Sandwich Bar on Bruce's",
+                           "Omelet Station on Spider Grill left",
+                           "Steel Cut Oatmeal, Yogurt and Fruit Bar",
+                           "Bagel Bar on Evergreen's (salad bar)"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "RIB Bar on Spider Grill",
+                           "1\/3lb burgers cooked to order",
+                           "Panini Station on Campus Deli",
+                           "Gyros carved to order on Bruce's"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Mongolian Grill Station on Hemispheres",
+                           "Cuban Cuisine- Chciken with Okra and Plantains on Hemispheres"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":"Grilled Cheese and Flank Steak Sandwich Station on Hemispheres"
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Thursday",
+                     "locname":"Specials"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Breakfast Sandwich Bar on Bruce's",
+                           "Omelet Station on Spider Grill left",
+                           "Steel Cut Oatmeal, Yogurt and Fruit Bar",
+                           "Bagel Bar on Evergreens (salad bar)"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Southern Smoke BBQ Bar on Spider Grill",
+                           "1\/3lb burgers cooked to order"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Grilled Cheese and Flank Steak Sandwich Station on Hemispheres",
+                           "Gryos carved to order on Bruce's",
+                           "Panini Station on Campus Deli"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":"Mongolian Grill Station on Hemispheres"
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Friday",
+                     "locname":"Specials"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Breakfast Sandwich Bar on Bruce's",
+                           "Omelet Station on Spider Grill left",
+                           "Steel Cut Oats, Fruit and Yogurt Bar on Hemispheres",
+                           "Bagel Bar on Evergreens (salad bar)"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Indian Bar on Spider Grill",
+                           "1\/3lb burgers cooked to order"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Mongolian Grill Station on Hemispheres",
+                           "Gryros carved to order on Bruce's",
+                           "Panini Station on the Campus Deli"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":"Grilled Cheese and Flank Steak Sandwich Station on Hemispheres"
+                     }
+                  ]
+               }
+            ]
+         },
+         {  
+            "@attributes":{  
+               "name":"Spider Grill"
+            },
+            "day":[  
+               {  
+                  "@attributes":{  
+                     "dow":"",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Hamburgers",
+                        "Grilled Chicken",
+                        "Grilled Cheese Sandwich",
+                        "French Fries",
+                        "Garden Burger cooked to order",
+                        "Boca Burger cooked to order"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Sunday",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Scrambled & Hard Cooked Eggs",
+                           "Bacon",
+                           "Omelet Bar",
+                           "Sausage Gravy",
+                           "Biscuits",
+                           "Pancakes",
+                           "Hash Brown Potatoes"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Hot Dog",
+                           "Chicken Nuggets"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Monday",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Scrambled & Hard Cooked Eggs",
+                           "Bacon",
+                           "Sausage Links",
+                           "Fried Potatoes",
+                           "French Toast Sticks",
+                           "Asparagus & Artichoke Benedict",
+                           "Cream of Wheat"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Corn Dog Nuggets",
+                           "Jalapeno Poppers"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Tuesday",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Scrambled & Hard Cooked Eggs",
+                           "Bacon",
+                           "Sliced Ham",
+                           "Biscuits",
+                           "Wheat Pancakes",
+                           "Agave Syrup",
+                           "Tater Tots"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Fish Strips",
+                           "Hot Dog"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Wednesday",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Scrambled & Hard Cooked Eggs",
+                           "Bacon",
+                           "Sausage Patty",
+                           "Waffles",
+                           "Grits",
+                           "Biscuit",
+                           "Tater Wedges"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Chicken Strips",
+                           "Corn Dog Nuggets",
+                           "Sweet Potato Fries"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Thursday",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Scrambled & Hard Cooked Eggs",
+                           "Bacon",
+                           "Cream Chipped Beef",
+                           "Biscuits",
+                           "Cottage Fried Potatoes",
+                           "Chocolate Chip Pancakes"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Hot Dog",
+                           "Turkey Burger"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Friday",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Scrambled & Hard Cooked Eggs",
+                           "Bacon",
+                           "Sausage Links",
+                           "Lumberjack Hash",
+                           "French Toast Sticks",
+                           " Cream of Wheat"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Corn Dog Nuggets",
+                           "Mozzarrella Sticks"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Saturday",
+                     "locname":"Spider Grill"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Scrambled & Hard Cooked Eggs",
+                           "Bacon",
+                           "Canadian Bacon",
+                           "Tater Wedges",
+                           "Grits",
+                           "Biscuits",
+                           "Pancakes"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Hot Dogs",
+                           "Onion Rings"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {  
+            "@attributes":{  
+               "name":"Dolce Vita"
+            },
+            "day":[  
+               {  
+                  "@attributes":{  
+                     "dow":"Sunday",
+                     "locname":"Dolce Vita"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":"Assorted Donuts and Pastries"
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":"Baker's Choice"
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Monday",
+                     "locname":"Dolce Vita"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Hot Gourmet Cinnamon Rolls",
+                           "Assorted Donuts, Pastries, and Breakfast Breads"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Key Lime Pie",
+                           "Mixed Berry Trifle",
+                           "Snickers Cheesecake",
+                           "Thumbprint Cookies",
+                           "Garlic Bread"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Tuesday",
+                     "locname":"Dolce Vita"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":"Assorted Donuts, Pastries, and Breakfast Breads"
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Pound Cake",
+                           "Fresh Fruit Tart",
+                           "Dark Chocolate Cake",
+                           "Coconut Macaroons (gluten free)",
+                           "Sundried Tomato Bread"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Wednesday",
+                     "locname":"Dolce Vita"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":"Assorted Donuts, Pastries, and Breakfast Breads"
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Salted Caramel Tart",
+                           "Compost Cookies",
+                           "Red Velvet Cheesecake",
+                           "Peach Cobbler",
+                           "Parmesan Herb Rolls"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Thursday",
+                     "locname":"Dolce Vita"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":"Assorted Donuts, Pastries, and Breakfast Breads"
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Vegan Vanilla Cake ",
+                           "Grasshopper Pie",
+                           "Paris Brest",
+                           "Chocolate, Chocolate Cookies",
+                           "Butter & Egg Dinner Rolls"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Friday",
+                     "locname":"Dolce Vita"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":"Assorted Donuts, Pastries, and Breakfsat Breads"
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Mocha Pecan Torte",
+                           "Pineapple Upside Down Cake",
+                           "Peanut Cookies",
+                           "Jersey Dirt",
+                           "Sesame Wheat Rolls"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Saturday",
+                     "locname":"Dolce Vita"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Breakfast",
+                           "status":"Available"
+                        },
+                        "item":"Assorted Donuts, Pastries and Breakfast Breads"
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch and Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Caramel Cheesecake",
+                           "French Silk Pie",
+                           "Tapioca Pudding",
+                           "Blondies",
+                           "Rosemary Focaccia"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {  
+            "@attributes":{  
+               "name":"Grains and Greens"
+            },
+            "day":[  
+               {  
+                  "@attributes":{  
+                     "dow":"Sunday",
+                     "locname":"Grains and Greens"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Tempeh Tamale Pie",
+                           "Roasted Red Potatoes",
+                           "Shoepeg Corn",
+                           "Grilled Zucchini"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Farro Peppers",
+                           "Wild Rice Pilaf",
+                           "Sliced Carrots",
+                           "Collard Greens"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Monday",
+                     "locname":"Grains and Greens"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Thai Garbanzo Beans",
+                           "Mushroom Wild Rice",
+                           "Steamed Broccoli",
+                           "Riviera Blend Vegetables"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Vegetable Macaroni Casserole",
+                           "Sweet Potato Hash",
+                           "French Green Beans",
+                           "Steamed Cauliflower"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Tuesday",
+                     "locname":"Grains and Greens"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Black Bean Cakes",
+                           "Wheatberries",
+                           "Sauteed Zucchini",
+                           "Baby Carrots"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Herb Vegetable Chili",
+                           "Garlic Roasted Potatoes",
+                           "Steamed Asparagus",
+                           "Edamine Beans"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Wednesday",
+                     "locname":"Grains and Greens"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Seitan Gyros",
+                           "with Tzatziki Sauce ",
+                           "and Harissa Sauce",
+                           "Tabbouleh",
+                           "Greek Beans",
+                           "Sauteed Cabbage"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Barley with Brussels Sprouts",
+                           "Yellow Rice Pilaf",
+                           "Spinach",
+                           "Grilled Tomatoes"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Thursday",
+                     "locname":"Grains and Greens"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Eggplant Parmesan",
+                           "Linguini",
+                           "Asparagus",
+                           "Ratatouille"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Stuffed Portabella Mushroom",
+                           "Smashed Chive Potatoes",
+                           "Broccoli",
+                           "Carrot Souffle"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Friday",
+                     "locname":"Grains and Greens"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Polenta Lasagna",
+                           "Au Gratin Potatoes",
+                           "Cut Corn",
+                           "Grilled Zucchini"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Zucchini Fritters",
+                           "Bulghur Rissotto",
+                           "Roasted Tuscan Vegetables",
+                           "Wax Beans"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Saturday",
+                     "locname":"Grains and Greens"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Vegetarian Sloppy Joe",
+                           "Hash Brown Potatoes",
+                           "Steamed Cauliflower",
+                           "Cut Green Beans",
+                           "Cole Slaw"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Seven Layer Tortilla Pie",
+                           "Red Beans & Rice",
+                           "Grilled Peppers & Onions",
+                           "Chopped Spinach"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {  
+            "@attributes":{  
+               "name":"Bruce's"
+            },
+            "day":[  
+               {  
+                  "@attributes":{  
+                     "dow":"Sunday",
+                     "locname":"Bruce's"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Breakfast Quiche",
+                           "Roasted Red Potatoes",
+                           "Shoepeg Corn",
+                           "Grilled Zucchini"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Roast Beef",
+                           "with Gravy",
+                           "Wild Rice Pilaf",
+                           "Seasoned Collards",
+                           "Sliced Carrots"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Monday",
+                     "locname":"Bruce's"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Apricot Chicken",
+                           "Whipped Potatoes",
+                           "Riviera Blend Vegetables",
+                           "Steamed Broccoli"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Sustainable Fish Selection",
+                           "Sweet Potato Hash with Bacon",
+                           "French Cut Green Beans",
+                           "Cauliflower"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Tuesday",
+                     "locname":"Bruce's"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Cheese Stuffed Shell with Meat Sauce",
+                           "Sauteed Zucchini",
+                           "Green Peas",
+                           "Garlic Breadsticks"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Carved Rotisserie Chicken",
+                           "Garlic Roasted Potatoes",
+                           "Parmesan Roasted Asparagus",
+                           "Edamame"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Wednesday",
+                     "locname":"Bruce's"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Beef Bourguignon",
+                           "Egg Noodles",
+                           "French Green Beans",
+                           "Slide Carrots"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Pork Loin Saltinbocca",
+                           "Yellow Rice Pilaf",
+                           "Chopped Spinach",
+                           "Grilled Tomatoes"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Thursday",
+                     "locname":"Bruce's"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Chicken Parmesan",
+                           "Linguini",
+                           "Asparagus",
+                           "Ratatouille"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Baked Meatloaf ",
+                           "with Gravy",
+                           "Smashed Chive Potatoes",
+                           "Broccoli",
+                           "Carrot Souffle"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Friday",
+                     "locname":"Bruce's"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Salmon Cakes",
+                           "Potatoes Augratin",
+                           "Cut Corn",
+                           "Grilled Zucchini"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Chicken Piccata",
+                           "Bulghur Rissotto",
+                           "Fire Roasted Grains & Vegetables",
+                           "French Green Beans"
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Saturday",
+                     "locname":"Bruce's"
+                  },
+                  "meal":[  
+                     {  
+                        "@attributes":{  
+                           "name":"Lunch",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Roasted Garlic Lamb",
+                           "Roasted Red Potatoes",
+                           "Cauliflower",
+                           "Green Beans"
+                        ]
+                     },
+                     {  
+                        "@attributes":{  
+                           "name":"Dinner",
+                           "status":"Available"
+                        },
+                        "item":[  
+                           "Jumbo Beef Ravioli",
+                           "Chopped Spinach",
+                           "Green Peppers & Onions",
+                           "Garlic Focaccia"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {  
+            "@attributes":{  
+               "name":"Piatto Bene"
+            },
+            "day":[  
+               {  
+                  "@attributes":{  
+                     "dow":"Sunday",
+                     "locname":"Piatto Bene"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "White or Wheat Pasta",
+                        "Marinara Sause",
+                        "Alfredo Sauce",
+                        "Meatballs",
+                        "Cheese or Pepperoni Pizza"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Monday",
+                     "locname":"Piatto Bene"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Sizzling Salad cooked to order at lunch",
+                        "Pasta cooked to order at dinner",
+                        "Choice of Toppings",
+                        "Wheat or White Pasta",
+                        "Assorted Sauces, Meatballs",
+                        "Cheese or Pepperoni Pizza",
+                        "Specialty Pizza Selection"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Tuesday",
+                     "locname":"Piatto Bene"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Pasta cooked to order at lunch",
+                        "Sizzling Salad cooked to order at dinner",
+                        "Choice of Toppings",
+                        "Wheat or White Pasta",
+                        "Assorted Sauces, Meatballs",
+                        "Cheese or Pepperoni Pizza",
+                        "Specialty Pizza"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Wednesday",
+                     "locname":"Piatto Bene"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Sizzling Salad cooked to order at lunch",
+                        "Pasta cooked to order at dinner",
+                        "Choice of Toppings",
+                        "Wheat & White Pasta",
+                        "Assorted Sauces, Meatballs",
+                        "Cheese or Pepperoni Pizza",
+                        "Specialty Pizza"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Thursday",
+                     "locname":"Piatto Bene"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Pasta Cooked to order at lunch",
+                        "Sizzling Salad cooked to order at dinner",
+                        "Choice of Toppings",
+                        "White or Wheat Pasta",
+                        "Assorted Sauces, Meatballs",
+                        "Cheese or Pepproni Pizza",
+                        "Specialty Pizza"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Friday",
+                     "locname":"Piatto Bene"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Sizzling Salad cooked to order at lunch",
+                        "Pasta Cooked to order at dinner",
+                        "Choice of Toppings",
+                        "Wheat or White Pasta",
+                        "Assorted Sauces, Meatballs",
+                        "Cheese or Pepperoni Pizza",
+                        "Specialty Pizza"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Saturday",
+                     "locname":"Piatto Bene"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Wheat or White Pasta",
+                        "Marinara Sauce",
+                        "Alfredo Sauce",
+                        "Meatballs",
+                        "Cheese or Pepperoni Pizza"
+                     ]
+                  }
+               }
+            ]
+         },
+         {  
+            "@attributes":{  
+               "name":"Evergreens"
+            },
+            "day":[  
+               {  
+                  "@attributes":{  
+                     "dow":"Sunday",
+                     "locname":"Evergreens"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Full Salad Bar",
+                        "Soup du Jour",
+                        "Broccoli Pasta Salad"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Monday",
+                     "locname":"Evergreens"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Full Salad Bar",
+                        "Italian Wedding Soup",
+                        "French Onion Soup",
+                        "Italian Chopped Salad MTO",
+                        "Mediterranean Bar"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Tuesday",
+                     "locname":"Evergreens"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Full Salad Bar",
+                        "Manhattan Clam Chowder",
+                        "Vegan Broccoli Soup",
+                        "Shrimp, Zucchini & Basil Salad MTO",
+                        "Mediterranean Bar"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Wednesday",
+                     "locname":"Evergreens"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Full Salad Bar",
+                        "Chicken Noodle Soup",
+                        "Roasted Vegetable & Dijon Soup",
+                        "Chicken Caesar Salad MTO",
+                        "Mediterranean Bar"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Thursday",
+                     "locname":"Evergreens"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Full Salad Bar",
+                        "Hot & Sour Soup",
+                        "Vegan Split Pea Soup",
+                        "Southwestern Bean Salad MTO",
+                        "Mediterranean Bar"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Friday",
+                     "locname":"Evergreens"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Full Salad Bar",
+                        "Beef Vegetable Soup",
+                        "Celery & Blue Cheese Soup",
+                        "Fuji Apple & Grilled Chicken Salad",
+                        "Mediterranean Bar"
+                     ]
+                  }
+               },
+               {  
+                  "@attributes":{  
+                     "dow":"Saturday",
+                     "locname":"Evergreens"
+                  },
+                  "meal":{  
+                     "@attributes":{  
+                        "name":"Lunch and Dinner",
+                        "status":"Available"
+                     },
+                     "item":[  
+                        "Full Salad Bar",
+                        "Soup du Jour",
+                        "Garden Pasta Salad"
+                     ]
+                  }
+               }
+            ]
+         }
+      ]
+   }
+};
