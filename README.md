@@ -6,4 +6,4 @@
 * Fetch json from items.json
 * Integrate an mvc to generate dropdown menu 
 
-Author: Shiv Toolsidass
+Authors: Michael Dombrowski, Shiv Toolsidass
