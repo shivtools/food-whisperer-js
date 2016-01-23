@@ -1,7 +1,7 @@
 var express = require('express');
 var fs = require('fs');
 var request = require('request');
-var cheerio = require('cheerio');
+var $ = require('jquery');
 
 var router = express.Router();
 
@@ -14,34 +14,84 @@ app.get('/scrape', function(req, res){
   request(url, function(error, response, html){
 
       if(!error){
-            var $ = cheerio.load(html);
+
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            
+            res.write('<html><head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+            <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            </head>
+            <body>
+            <div class="container-fluid">
+            <div class="col-md-12" id="main">');
+
+            var file = html.substring(html.indexOf("var locationmenu =") + ("var locationmenu =").length); //in html finds 'var locationmenu = 
+            file = file.substring(0, file.indexOf("</script>")-1); //get json data till end of last script tag
+
+            var menu = JSON.parse(file); //parse JSON
+
+            menu = menu.results.location; 
+
+            console.log(menu);
+
+            var rows = 0;
+            menu.forEach(function(v){
+
+              v.day.forEach(function(b){
+
+                var toPrint = "<div class=\"col-md-3\"><h2>"+b["@attributes"].locname+": "+b["@attributes"].dow+"</h2>";
+
+                if(b.meal.item != undefined){
+
+                  toPrint = toPrint+"<h4>"+b.meal["@attributes"].name+"</h4>";
+
+                  if(Array.isArray(b.meal.item)){
+
+                    b.meal.item.forEach(function(f){
+                      toPrint = toPrint + "<p>"+f+"</p>";
+                    });
+
+                  }
+                  else{
+                    toPrint = toPrint + "<p>"+b.meal.item+"</p>";
+                  }
+                }
+                else{
+                  b.meal.each(function(d){
+
+                    toPrint = toPrint+"<h4>"+d["@attributes"].name+"</h4>";
+
+                    if(Array.isArray(d.item)){
+
+                      //if array of items, then print each item.
+                      d.item.forEach(function(f){
+                        toPrint = toPrint + "<p>"+f+"</p>";
+                      });
+                    }
+
+                    //else print single item.
+                    else{
+                      toPrint = toPrint + "<p>"+d.item+"</p>";
+                    }
+                  });
+                }
+                //$("#main").append(toPrint+"</div>");
+                res.send(toPrint + "</div>");
+                rows++;
+              });
+            });
 
             //div containing all days of the week
             $daySpan = $('#dow-controls');
-
-
-            //iterate through every day and get all items on menu
-            //store them in db (to be done later)
-
-            //iterate through span containing every day of the week
-            $('#dow-controls').filter(function(){
-              var day = $(this).text();
-            })
-
-
-            $('.title').filter(function(){
-                var data = $(this);
-                var item = data.text(); //get food items for given day.
-                //console.log(item); //works
-            });
       }
 
       else{
             console.log("Could not fetch data");
       }
 
-  // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
-      res.send('Check your console!')
+    // Finally, send end tags of html.
+      res.write('</div></div></body></html>');
 
     });
 })
